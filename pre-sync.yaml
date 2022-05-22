@@ -10,6 +10,6 @@ spec:
       containers:
       - name: sleep
         image: alpine:latest
-        command: ["echo", "pre-sync"]
+        command: ["echo", "pre-sync-2"]
       restartPolicy: Never
   backoffLimit: 0
